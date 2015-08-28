@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB8003E1B905A2A002F044B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB8003D1B905A2A002F044B /* main.m */; };
+		1AB800411B905A2B002F044B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB800401B905A2B002F044B /* AppDelegate.m */; };
+		1AB800441B905A2B002F044B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB800431B905A2B002F044B /* ViewController.m */; };
+		1AB800471B905A2B002F044B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB800451B905A2B002F044B /* Main.storyboard */; };
+		1AB800491B905A2B002F044B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB800481B905A2B002F044B /* Images.xcassets */; };
+		1AB8004C1B905A2B002F044B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AB8004A1B905A2B002F044B /* LaunchScreen.xib */; };
+		1AB800581B905A2B002F044B /* LBNumberKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB800571B905A2B002F044B /* LBNumberKeyboardTests.m */; };
+		1AB800641B905EC0002F044B /* LBNumberKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB800631B905EC0002F044B /* LBNumberKeyboardView.m */; };
+		1AB800671B90618A002F044B /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB800651B90618A002F044B /* delete@2x.png */; };
+		1AB800681B90618A002F044B /* buttonBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB800661B90618A002F044B /* buttonBg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB800521B905A2B002F044B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB800301B905A2A002F044B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB800371B905A2A002F044B;
+			remoteInfo = LBNumberKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB800381B905A2A002F044B /* LBNumberKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBNumberKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB8003C1B905A2A002F044B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB8003D1B905A2A002F044B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AB8003F1B905A2A002F044B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AB800401B905A2B002F044B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AB800421B905A2B002F044B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AB800431B905A2B002F044B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AB800461B905A2B002F044B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AB800481B905A2B002F044B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AB8004B1B905A2B002F044B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1AB800511B905A2B002F044B /* LBNumberKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBNumberKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB800561B905A2B002F044B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB800571B905A2B002F044B /* LBNumberKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBNumberKeyboardTests.m; sourceTree = "<group>"; };
+		1AB800621B905EC0002F044B /* LBNumberKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBNumberKeyboardView.h; sourceTree = "<group>"; };
+		1AB800631B905EC0002F044B /* LBNumberKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBNumberKeyboardView.m; sourceTree = "<group>"; };
+		1AB800651B90618A002F044B /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
+		1AB800661B90618A002F044B /* buttonBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonBg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB800351B905A2A002F044B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB8004E1B905A2B002F044B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB8002F1B905A2A002F044B = {
+			isa = PBXGroup;
+			children = (
+				1AB8003A1B905A2A002F044B /* LBNumberKeyboard */,
+				1AB800541B905A2B002F044B /* LBNumberKeyboardTests */,
+				1AB800391B905A2A002F044B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB800391B905A2A002F044B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB800381B905A2A002F044B /* LBNumberKeyboard.app */,
+				1AB800511B905A2B002F044B /* LBNumberKeyboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB8003A1B905A2A002F044B /* LBNumberKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1AB800611B905A69002F044B /* Classes */,
+				1AB8003F1B905A2A002F044B /* AppDelegate.h */,
+				1AB800401B905A2B002F044B /* AppDelegate.m */,
+				1AB800421B905A2B002F044B /* ViewController.h */,
+				1AB800431B905A2B002F044B /* ViewController.m */,
+				1AB800451B905A2B002F044B /* Main.storyboard */,
+				1AB800481B905A2B002F044B /* Images.xcassets */,
+				1AB8004A1B905A2B002F044B /* LaunchScreen.xib */,
+				1AB8003B1B905A2A002F044B /* Supporting Files */,
+			);
+			path = LBNumberKeyboard;
+			sourceTree = "<group>";
+		};
+		1AB8003B1B905A2A002F044B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB8003C1B905A2A002F044B /* Info.plist */,
+				1AB8003D1B905A2A002F044B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AB800541B905A2B002F044B /* LBNumberKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB800571B905A2B002F044B /* LBNumberKeyboardTests.m */,
+				1AB800551B905A2B002F044B /* Supporting Files */,
+			);
+			path = LBNumberKeyboardTests;
+			sourceTree = "<group>";
+		};
+		1AB800551B905A2B002F044B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB800561B905A2B002F044B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AB800611B905A69002F044B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1AB800621B905EC0002F044B /* LBNumberKeyboardView.h */,
+				1AB800631B905EC0002F044B /* LBNumberKeyboardView.m */,
+				1AB800651B90618A002F044B /* delete@2x.png */,
+				1AB800661B90618A002F044B /* buttonBg@2x.png */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB800371B905A2A002F044B /* LBNumberKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB8005B1B905A2B002F044B /* Build configuration list for PBXNativeTarget "LBNumberKeyboard" */;
+			buildPhases = (
+				1AB800341B905A2A002F044B /* Sources */,
+				1AB800351B905A2A002F044B /* Frameworks */,
+				1AB800361B905A2A002F044B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBNumberKeyboard;
+			productName = LBNumberKeyboard;
+			productReference = 1AB800381B905A2A002F044B /* LBNumberKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB800501B905A2B002F044B /* LBNumberKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB8005E1B905A2B002F044B /* Build configuration list for PBXNativeTarget "LBNumberKeyboardTests" */;
+			buildPhases = (
+				1AB8004D1B905A2B002F044B /* Sources */,
+				1AB8004E1B905A2B002F044B /* Frameworks */,
+				1AB8004F1B905A2B002F044B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB800531B905A2B002F044B /* PBXTargetDependency */,
+			);
+			name = LBNumberKeyboardTests;
+			productName = LBNumberKeyboardTests;
+			productReference = 1AB800511B905A2B002F044B /* LBNumberKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB800301B905A2A002F044B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = luobbe;
+				TargetAttributes = {
+					1AB800371B905A2A002F044B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1AB800501B905A2B002F044B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1AB800371B905A2A002F044B;
+					};
+				};
+			};
+			buildConfigurationList = 1AB800331B905A2A002F044B /* Build configuration list for PBXProject "LBNumberKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB8002F1B905A2A002F044B;
+			productRefGroup = 1AB800391B905A2A002F044B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB800371B905A2A002F044B /* LBNumberKeyboard */,
+				1AB800501B905A2B002F044B /* LBNumberKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB800361B905A2A002F044B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB800471B905A2B002F044B /* Main.storyboard in Resources */,
+				1AB800671B90618A002F044B /* delete@2x.png in Resources */,
+				1AB800681B90618A002F044B /* buttonBg@2x.png in Resources */,
+				1AB8004C1B905A2B002F044B /* LaunchScreen.xib in Resources */,
+				1AB800491B905A2B002F044B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB8004F1B905A2B002F044B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB800341B905A2A002F044B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB800641B905EC0002F044B /* LBNumberKeyboardView.m in Sources */,
+				1AB800441B905A2B002F044B /* ViewController.m in Sources */,
+				1AB800411B905A2B002F044B /* AppDelegate.m in Sources */,
+				1AB8003E1B905A2A002F044B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB8004D1B905A2B002F044B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB800581B905A2B002F044B /* LBNumberKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB800531B905A2B002F044B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB800371B905A2A002F044B /* LBNumberKeyboard */;
+			targetProxy = 1AB800521B905A2B002F044B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AB800451B905A2B002F044B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB800461B905A2B002F044B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AB8004A1B905A2B002F044B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB8004B1B905A2B002F044B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AB800591B905A2B002F044B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AB8005A1B905A2B002F044B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB8005C1B905A2B002F044B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LBNumberKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AB8005D1B905A2B002F044B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LBNumberKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AB8005F1B905A2B002F044B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LBNumberKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBNumberKeyboard.app/LBNumberKeyboard";
+			};
+			name = Debug;
+		};
+		1AB800601B905A2B002F044B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LBNumberKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBNumberKeyboard.app/LBNumberKeyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB800331B905A2A002F044B /* Build configuration list for PBXProject "LBNumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB800591B905A2B002F044B /* Debug */,
+				1AB8005A1B905A2B002F044B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB8005B1B905A2B002F044B /* Build configuration list for PBXNativeTarget "LBNumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB8005C1B905A2B002F044B /* Debug */,
+				1AB8005D1B905A2B002F044B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AB8005E1B905A2B002F044B /* Build configuration list for PBXNativeTarget "LBNumberKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB8005F1B905A2B002F044B /* Debug */,
+				1AB800601B905A2B002F044B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB800301B905A2A002F044B /* Project object */;
+}
